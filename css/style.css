@@ -1,0 +1,32 @@
+.container {
+    height: 500px;
+    width: 500px;
+    position: relative;
+    margin: 150px auto;
+    outline: 2px solid rgb(255, 0, 179);
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+}
+
+.square:first-child {
+    background-color: rgb(240, 98, 105);
+    top: 0px;
+    left: 0px;
+}
+
+.square:nth-child(2) {
+    background-color:  rgb(113, 89, 221);
+    top: 75px;
+    left: 75px;
+    z-index: 1;
+}
+
+.square:last-child {
+    background-color: #54d28f;
+    top: 150px;
+    left: 150px;
+}
